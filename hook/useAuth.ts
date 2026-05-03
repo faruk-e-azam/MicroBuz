@@ -1,13 +1,14 @@
-"use client";
-import { useEffect, useState } from "react";
+// "use client";
 
-export function useAuth() {
-  const [user, setUser] = useState(null);
+// import { useEffect, useState } from "react";
 
-  useEffect(() => {
-    // mock auth
-    setUser({ name: "John Doe" });
-  }, []);
+// export function useAuth() {
+//   const [user, setUser] = useState(null);
 
-  return { user };
-}
+//   useEffect(() => {
+//     // mock auth
+//     setUser({ name: "John Doe" });
+//   }, []);
+
+//   return { user };
+// }
